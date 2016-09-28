@@ -3,7 +3,7 @@
 This Git repo describes the firmware and hardware to create an interface to CANBUS enable a Speeduino ECU.
 The Speeduino ECU must be running the CAN enabled firmware variant in order for this device to work.
 
-The module can be constructed using either a arduino MEGA2560 and a mcp2515 CAN io module or a Teensy 3.2 and a CAN transceiver module. various transceiver modules can be used with the Teensy the ones below have been tested by the writers of the FLEXCAN library
+The module can be constructed using either a arduino MEGA2560 and a mcp2515 CAN io module or a Teensy 3.2 and a CAN transceiver module.The teensy version is compact enough to nabke the use of the recommended speeduino case. various transceiver modules can be used with the Teensy the ones below have been tested by the writers of the FLEXCAN library
 
     TI SN65HVD230D on 3.3V (1MBPS)
     TI SN65HVD232D / SN65HVD232QDQ1 on 3.3V (1MBPS)
