@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<msq xmlns="http://www.msefi.com/:msq">
+<bibliography author="TunerStudio MS(Beta) 3.0.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;" writeDate="Tue Sep 27 00:33:29 BST 2016"/>
+<versionInfo fileFormat="5.0" firmwareInfo="" nPages="7" signature="IOExtender V0.2.00  "/>
+<page>
+<pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
+</page>
+<page number="0" size="64"/>
+<page number="1" size="64"/>
+<page number="2" size="384"/>
+<page number="3" size="356"/>
+<page number="4" size="64"/>
+<page number="5" size="510"/>
+<page number="6" size="255"/>
+<settings Comment="These setting are only used if this msq is opened without a project.">
+<setting name="SHOW_INDICATORS" value="SHOW_INDICATORS"/>
+<setting name="CAN_COMMANDS" value="CAN_COMMANDS"/>
+</settings>
+<userComments Comment="These are user comments that can be related to a particular setting or dialog."/>
+</msq>

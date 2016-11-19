@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<msq xmlns="http://www.msefi.com/:msq">
+<bibliography author="TunerStudio MS(Beta) 3.0.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: TunerStudio settings before accepting Controller values in a Difference Report. - &lt;br&gt;" writeDate="Tue Sep 27 13:03:55 BST 2016"/>
+<versionInfo fileFormat="5.0" firmwareInfo="speeduino+201609-can++++DS+Can+Interface" nPages="4" signature="speeduino 201609-can"/>
+<page>
+<pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
+</page>
+<page number="0" size="64">
+<constant name="canio_canid">"CAN ID 0"</constant>
+<constant name="canio_true_canid">"304"</constant>
+<constant name="canio_obd_canid">"0x7E2"</constant>
+<constant name="canio_true_can_bcast">"1392"</constant>
+<constant name="spare1_6">"101"</constant>
+<constant name="ECU_canid">"CAN ID 4"</constant>
+<constant name="ECU_true_canid">"373"</constant>
+<constant digits="0" name="can_poll_id0">111.0</constant>
+<constant digits="0" name="can_poll_id1">32.0</constant>
+<constant digits="0" name="can_poll_id2">50.0</constant>
+<constant digits="0" name="can_poll_id3">48.0</constant>
+<constant name="can_bcast1_on">"On"</constant>
+<constant name="can_bcast1_280x4">"Off"</constant>
+<constant name="can_bcast1_280x1">"Off"</constant>
+<constant name="can_bcast1_289">"Off"</constant>
+<constant name="can_bcast1_316">"On"</constant>
+<constant name="can_bcast1_329">"On"</constant>
+<constant name="can_bcast1_561">"Off"</constant>
+<constant name="can_bcast1_361">"Off"</constant>
+<constant name="can_bcast2_041">"Off"</constant>
+<constant name="1spare16b">"On"</constant>
+<constant name="1spare16c">"On"</constant>
+<constant name="1spare16d">"Off"</constant>
+<constant name="1spare16e">"On"</constant>
+<constant name="1spare16f">"On"</constant>
+<constant name="1spare16g">"Off"</constant>
+<constant name="1spare16h">"Off"</constant>
+<constant digits="1" name="poll_tableports" units="ms">4.8</constant>
+<constant digits="0" name="can_poll" units="RPM">5700.0</constant>
+<constant digits="0" name="1unused19" units="RPM">4500.0</constant>
+<constant name="can_device00">"3"</constant>
+<constant name="can_device01">"6"</constant>
+<constant name="can_device02">"1"</constant>
+<constant name="can_device03">"6"</constant>
+<constant name="can_device04">"14"</constant>
+<constant name="can_device05">"6"</constant>
+<constant name="can_device06">"Off"</constant>
+<constant name="can_device07">"3"</constant>
+<constant name="can_device08">"Off"</constant>
+<constant name="can_device09">"3"</constant>
+<constant name="can_device10">"1"</constant>
+<constant name="can_device11">"3"</constant>
+<constant name="can_device12">"3"</constant>
+<constant name="can_device13">"7"</constant>
+<constant name="can_device14">"Off"</constant>
+<constant name="can_device15">"7"</constant>
+<constant name="can_device00_Bcast">"InActive"</constant>
+<constant name="can_device01_Bcast">"Active"</constant>
+<constant name="can_device02_Bcast">"InActive"</constant>
+<constant name="can_device03_Bcast">"Active"</constant>
+<constant name="can_device04_Bcast">"Active"</constant>
+<constant name="can_device05_Bcast">"InActive"</constant>
+<constant name="can_device06_Bcast">"InActive"</constant>
+<constant name="can_device07_Bcast">"Active"</constant>
+<constant name="can_device08_Bcast">"InActive"</constant>
+<constant name="can_device09_Bcast">"Active"</constant>
+<constant name="can_device10_Bcast">"InActive"</constant>
+<constant name="can_device11_Bcast">"Active"</constant>
+<constant name="can_device12_Bcast">"Active"</constant>
+<constant name="can_device13_Bcast">"InActive"</constant>
+<constant name="can_device14_Bcast">"InActive"</constant>
+<constant name="can_device15_Bcast">"Active"</constant>
+<constant name="pinLayout">"CanIO v0.1"</constant>
+<constant digits="0" name="1unused31" units="RPM">11700.0</constant>
+<constant digits="0" name="1unused32" units="RPM">10500.0</constant>
+<constant digits="0" name="1unused33" units="RPM">11000.0</constant>
+<constant digits="0" name="1unused34" units="RPM">11100.0</constant>
+<constant digits="0" name="1unused35" units="RPM">3200.0</constant>
+<constant digits="0" name="1unused36" units="RPM">5000.0</constant>
+<constant digits="0" name="1unused37" units="RPM">4800.0</constant>
+<constant digits="0" name="1unused38" units="RPM">4900.0</constant>
+<constant digits="0" name="1unused39" units="RPM">5400.0</constant>
+<constant digits="0" name="1unused40" units="RPM">4800.0</constant>
+<constant digits="1" name="can_bcast_int_a" units="ms">7.296</constant>
+<constant digits="1" name="can_bcast_int_b" units="ms">5.76</constant>
+<constant digits="0" name="poll_offsetPWM_a">99.0</constant>
+<constant digits="0" name="poll_offsetPWM_b">97.0</constant>
+<constant digits="0" name="1unused45" units="RPM">11000.0</constant>
+<constant digits="0" name="1unused46" units="RPM">3200.0</constant>
+<constant digits="0" name="1unused47" units="RPM">3200.0</constant>
+<constant digits="0" name="1unused48" units="RPM">3200.0</constant>
+<constant digits="0" name="1unused49" units="RPM">3200.0</constant>
+<constant digits="0" name="1unused50" units="RPM">6800.0</constant>
+<constant digits="0" name="1unused51" units="RPM">8300.0</constant>
+<constant digits="0" name="1unused52" units="RPM">3200.0</constant>
+<constant digits="0" name="1unused53" units="RPM">6700.0</constant>
+<constant digits="0" name="1unused54" units="RPM">9700.0</constant>
+<constant digits="0" name="1unused55" units="RPM">11000.0</constant>
+<constant digits="0" name="1unused56" units="RPM">3200.0</constant>
+<constant digits="0" name="1unused57" units="RPM">7300.0</constant>
+<constant digits="0" name="1unused58" units="RPM">11000.0</constant>
+<constant digits="0" name="1unused59" units="RPM">11600.0</constant>
+<constant digits="0" name="1unused60" units="RPM">10100.0</constant>
+<constant digits="0" name="1unused61" units="RPM">11400.0</constant>
+<constant digits="0" name="1unused62" units="RPM">10200.0</constant>
+<constant digits="0" name="1unused63" units="RPM">9700.0</constant>
+</page>
+<page number="1" size="64">
+<constant name="obd_active">"Enable"</constant>
+<constant name="2unused0b">"On"</constant>
+<constant name="2unused0c">"Off"</constant>
+<constant name="2unused0d">"Off"</constant>
+<constant name="2unused0e">"Off"</constant>
+<constant name="2unused0f">"On"</constant>
+<constant name="2unused0g">"On"</constant>
+<constant name="2unused0h">"Off"</constant>
+<constant name="obd_address00">"0x7E4"</constant>
+<constant name="obd_address01">"0x**E5"</constant>
+<constant name="obd_address02">"0x**DF"</constant>
+<constant name="obd_address03">"0x**DF"</constant>
+<constant name="obd_address04">"0x**E4"</constant>
+<constant name="obd_address05">"0x**DF"</constant>
+<constant name="obd_address06">"0x**DF"</constant>
+<constant name="obd_address07">"0x**E2"</constant>
+<constant name="obd_address08">"0x**E2"</constant>
+<constant name="obd_address09">"0x**E6"</constant>
+<constant name="obd_address10">"0x**DF"</constant>
+<constant name="obd_address11">"0x**DF"</constant>
+<constant name="obd_address12">"0x**E6"</constant>
+<constant name="obd_address13">"0x**E5"</constant>
+<constant name="obd_address14">"0x**E3"</constant>
+<constant name="obd_address15">"0x**DF"</constant>
+<constant name="IgnAlgorithm">"0x**DF"</constant>
+<constant cols="1" digits="0" name="portusage_a" rows="8">
+         1.0 
+         0.0 
+         5.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+      </constant>
+<constant digits="0" name="2unused18" units="RPM">25500.0</constant>
+<constant name="chooseport">"15"</constant>
+<constant digits="0" name="2unused20" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused21" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused22" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused23" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused24" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused25" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused26" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused27" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused28" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused29" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused30" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused31" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused32" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused33" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused34" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused35" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused36" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused37" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused38" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused39" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused40" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused41" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused42" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused43" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused44" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused45" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused46" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused47" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused48" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused49" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused50" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused51" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused52" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused53" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused54" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused55" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused56" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused57" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused58" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused59" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused60" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused61" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused62" units="RPM">25500.0</constant>
+<constant digits="0" name="2unused63" units="RPM">25500.0</constant>
+</page>
+<page number="2" size="384">
+<constant cols="1" digits="0" name="spareoutschan" rows="384">
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         4.0 
+         0.0 
+         7.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         5.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         12.0 
+         0.0 
+         68.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         14.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         12.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         5.0 
+         0.0 
+         1.0 
+         0.0 
+         1.0 
+         0.0 
+         1.0 
+         0.0 
+         1.0 
+         0.0 
+         12.0 
+         0.0 
+         1.0 
+         0.0 
+         55.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         1.0 
+         0.0 
+         0.0 
+         0.0 
+         5.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         1.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         1.0 
+         0.0 
+         1.0 
+         0.0 
+         3.0 
+         0.0 
+         1.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+      </constant>
+</page>
+<page number="3" size="388">
+<constant cols="16" digits="0" name="port_CanId" rows="2">
+         0.0 0.0 0.0 0.0 1.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 
+         0.0 0.0 0.0 0.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 
+      </constant>
+<constant cols="1" digits="0" name="port_Enabled" rows="16" units="on/off">
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+      </constant>
+<constant cols="16" digits="0" name="port_Condition1" rows="2">
+         60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 
+         60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 
+      </constant>
+<constant cols="1" digits="0" name="port_Condition2" rows="16">
+         0.0 
+         0.0 
+         1.0 
+         0.0 
+         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+      </constant>
+<constant cols="1" digits="0" name="port_InitValue" rows="16">
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+      </constant>
+<constant cols="1" digits="0" name="port_PortValue" rows="16">
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         0.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+         255.0 
+      </constant>
+<constant cols="16" digits="0" name="port_OutSize" rows="2">
+         255.0 255.0 255.0 255.0 1.0 0.0 0.0 0.0 0.0 119.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 62.0 61.0 60.0 60.0 60.0 61.0 60.0 60.0 60.0 60.0 60.0 60.0 
+      </constant>
+<constant cols="16" digits="0" name="port_OutOffset" rows="2">
+         15420.0 15420.0 15677.0 15677.0 15677.0 15677.0 15677.0 15677.0 15677.0 15677.0 65535.0 65535.0 65535.0 65535.0 65535.0 65535.0 
+         1279.0 65535.0 0.0 0.0 0.0 0.0 0.0 0.0 1.0 65281.0 257.0 257.0 257.0 511.0 65535.0 65535.0 
+      </constant>
+<constant cols="16" digits="0" name="port_Threshold" rows="2">
+         0.0 -1.0 -32382.0 -32257.0 -32257.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 
+         -1.0 -1.0 25.0 26.0 -1.0 -1.0 -1.0 28.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 
+      </constant>
+<constant cols="16" digits="0" name="port_Hysteresis" rows="2">
+         -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 
+         -1.0 -1.0 500.0 2.0 -1.0 14.0 -1.0 -1.0 -1.0 18.0 -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 
+      </constant>
+<constant name="port1sel">"255"</constant>
+<constant name="port2sel">"255"</constant>
+<constant name="port3sel">"255"</constant>
+<constant name="port4sel">"255"</constant>
+<constant name="port5sel">"50"</constant>
+<constant name="port6sel">""</constant>
+<constant name="port7sel">""</constant>
+<constant name="port8sel">""</constant>
+<constant name="port9sel">""</constant>
+<constant name="port10sel">""</constant>
+<constant name="port11sel">"14"</constant>
+<constant name="port12sel">""</constant>
+<constant name="can1sel">"0x200"</constant>
+<constant name="can2sel">"0x200"</constant>
+<constant name="can3sel">"0x200"</constant>
+<constant name="can4sel">"18"</constant>
+<constant name="can5sel">"0x200"</constant>
+<constant name="can6sel">"0x200"</constant>
+<constant name="can7sel">"0x200"</constant>
+<constant name="can8sel">"0x200"</constant>
+<constant name="data_from_byte1">""</constant>
+<constant name="data_from_byte2">""</constant>
+<constant name="data_from_byte3">""</constant>
+<constant name="data_from_byte4">""</constant>
+<constant name="data_from_byte5">""</constant>
+<constant name="data_from_byte6">""</constant>
+<constant name="data_from_byte7">""</constant>
+<constant name="data_from_byte8">""</constant>
+</page>
+<settings Comment="These setting are only used if this msq is opened without a project.">
+<setting name="SHOW_INDICATORS" value="SHOW_INDICATORS"/>
+<setting name="CAN_COMMANDS_OFF" value="CAN_COMMANDS_OFF"/>
+<setting name="CELSIUS" value="CELSIUS"/>
+</settings>
+<userComments Comment="These are user comments that can be related to a particular setting or dialog."/>
+</msq>

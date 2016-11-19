@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<msq xmlns="http://www.msefi.com/:msq">
+<bibliography author="TunerStudio MS(Beta) 3.0.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;" writeDate="Tue Sep 27 01:43:25 BST 2016"/>
+<versionInfo fileFormat="5.0" firmwareInfo="" nPages="4" signature="IOExtender V0.2.00  "/>
+<page>
+<pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
+</page>
+<page number="0" size="64">
+<constant name="canio_true_canid">"0x205"</constant>
+<constant name="canio_true_can_bcast">"2000"</constant>
+</page>
+<page number="1" size="64"/>
+<page number="2" size="384"/>
+<page number="3" size="388">
+<constant cols="16" digits="0" name="port_CanId" rows="2">
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+      </constant>
+<constant cols="1" digits="0" name="port_Enabled" rows="16" units="on/off">
+         1.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+      </constant>
+<constant cols="1" digits="0" name="port_InitValue" rows="16">
+         1.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+      </constant>
+<constant cols="1" digits="0" name="port_PortValue" rows="16">
+         1.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+      </constant>
+</page>
+<settings Comment="These setting are only used if this msq is opened without a project.">
+<setting name="FAHRENHEIT" value="FAHRENHEIT"/>
+<setting name="SHOW_INDICATORS" value="SHOW_INDICATORS"/>
+<setting name="CAN_COMMANDS" value="CAN_COMMANDS"/>
+</settings>
+<userComments Comment="These are user comments that can be related to a particular setting or dialog."/>
+</msq>

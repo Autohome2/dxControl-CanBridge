@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<msq xmlns="http://www.msefi.com/:msq">
+<bibliography author="TunerStudio MS(Beta) 3.0.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: TunerStudio settings before accepting Controller values in a Difference Report. - &lt;br&gt;" writeDate="Wed Oct 05 13:02:45 BST 2016"/>
+<versionInfo fileFormat="5.0" firmwareInfo="speeduino+201610-canif++DS+Can+Interface" nPages="1" signature="speeduino 201610-canif"/>
+<page>
+<pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
+</page>
+<page number="0" size="64">
+<constant name="canio_canid">"CAN ID 15"</constant>
+<constant name="canio_true_canid">"2047"</constant>
+<constant name="canio_obd_canid">"0x7DF"</constant>
+<constant name="canio_true_can_bcast">"2047"</constant>
+<constant digits="0" name="spare1_6">255.0</constant>
+<constant name="ECU_canid">"CAN ID 15"</constant>
+<constant name="ECU_true_canid">"2047"</constant>
+<constant digits="0" name="ECU_poll_period">255.0</constant>
+<constant digits="0" name="qty_analogin">255.0</constant>
+<constant digits="0" name="qty_digitalin">255.0</constant>
+<constant digits="0" name="1unused14">255.0</constant>
+<constant digits="0" name="1unused15">255.0</constant>
+<constant digits="0" name="1unused16">255.0</constant>
+<constant digits="1" name="1unused17">25.5</constant>
+<constant digits="0" name="1unused18" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused19" units="RPM">25500.0</constant>
+<constant name="can_device00">"15"</constant>
+<constant name="can_device01">"15"</constant>
+<constant name="can_device02">"15"</constant>
+<constant name="can_device03">"15"</constant>
+<constant name="can_device04">"15"</constant>
+<constant name="can_device05">"15"</constant>
+<constant name="can_device06">"15"</constant>
+<constant name="can_device07">"15"</constant>
+<constant name="can_device08">"15"</constant>
+<constant name="can_device09">"15"</constant>
+<constant name="can_device10">"15"</constant>
+<constant name="can_device11">"15"</constant>
+<constant name="can_device12">"15"</constant>
+<constant name="can_device13">"15"</constant>
+<constant name="can_device14">"15"</constant>
+<constant name="can_device15">"15"</constant>
+<constant name="can_device00_Bcast">"InActive"</constant>
+<constant name="can_device01_Bcast">"InActive"</constant>
+<constant name="can_device02_Bcast">"InActive"</constant>
+<constant name="can_device03_Bcast">"InActive"</constant>
+<constant name="can_device04_Bcast">"InActive"</constant>
+<constant name="can_device05_Bcast">"InActive"</constant>
+<constant name="can_device06_Bcast">"InActive"</constant>
+<constant name="can_device07_Bcast">"InActive"</constant>
+<constant name="can_device08_Bcast">"InActive"</constant>
+<constant name="can_device09_Bcast">"InActive"</constant>
+<constant name="can_device10_Bcast">"InActive"</constant>
+<constant name="can_device11_Bcast">"InActive"</constant>
+<constant name="can_device12_Bcast">"InActive"</constant>
+<constant name="can_device13_Bcast">"InActive"</constant>
+<constant name="can_device14_Bcast">"InActive"</constant>
+<constant name="can_device15_Bcast">"InActive"</constant>
+<constant name="pinLayout">"CanIO v0.1"</constant>
+<constant digits="0" name="1unused31" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused32" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused33" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused34" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused35" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused36" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused37" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused38" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused39" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused40" units="RPM">25500.0</constant>
+<constant digits="1" name="can_bcast_int_a" units="ms">32.64</constant>
+<constant digits="1" name="can_bcast_int_b" units="ms">32.64</constant>
+<constant digits="0" name="poll_offsetPWM_a">255.0</constant>
+<constant digits="0" name="poll_offsetPWM_b">255.0</constant>
+<constant digits="0" name="1unused45" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused46" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused47" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused48" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused49" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused50" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused51" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused52" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused53" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused54" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused55" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused56" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused57" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused58" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused59" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused60" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused61" units="RPM">25500.0</constant>
+<constant digits="0" name="1unused62" units="RPM">25500.0</constant>
+<constant digits="0" name="obd_active" units="RPM">0.0</constant>
+</page>
+<settings Comment="These setting are only used if this msq is opened without a project.">
+<setting name="SHOW_INDICATORS" value="SHOW_INDICATORS"/>
+<setting name="CAN_COMMANDS_OFF" value="CAN_COMMANDS_OFF"/>
+</settings>
+<userComments Comment="These are user comments that can be related to a particular setting or dialog."/>
+</msq>
