@@ -1,0 +1,2 @@
+This version will only compile for teensy 3.2 , the mega2560 is currently not usable.
+the internal CAN is not functioning properly so for this version a spi mcp2515 module is to be used.
