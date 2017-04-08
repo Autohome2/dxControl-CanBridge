@@ -15,10 +15,10 @@ The interface module connects to the Speeduino ECU via its Serial3 port to Seria
 The interface is configured via TunerStudio over the onboard USB.
 
 #What it does
-The interface requests the current data from the Speeduino at 20hz .
+The interface requests the current data from the Speeduino at 2hz .Later versions will have selectable broadcasts rate of up to 20hz
 This is put into packets of 8 bytes with each bundle of 8 bytes being assigned an 11bit CAN ID address.
-So if for example the base address is set as 3100dec(see configuration below on how to do this)then the data will be broadcast as follows.
-(the information below is corrct at time of writing 26/09/2016)
+So if for example the base address is set as 3100dec(see configuration below on how to do this)then the data will be broadcast as follows.The base broadcast address is selectable via a Tunerstudio connection.The ini file loaded must match the firmware version.
+(the information below is corrct at time of writing 19/11/2016)
 
 Can address 3100:
 
@@ -38,8 +38,8 @@ Can address 3101:
 - byte 2 - currentStatus.egoCorrection; //Exhaust gas correction (%)
 - byte 3 - currentStatus.iatCorrection; //Air temperature Correction (%)
 - byte 4 - currentStatus.wueCorrection; //Warmup enrichment (%)
-- byte 5 - lowByte(currentStatus.RPM); //rpm HB
-- byte 6 - highByte(currentStatus.RPM); //rpm LB
+- byte 5 - lowByte(currentStatus.RPM); //rpm LB
+- byte 6 - highByte(currentStatus.RPM); //rpm HB
 - byte 7 - currentStatus.TAEamount; //acceleration enrichment (%)
 
 Can address 3102:
@@ -57,11 +57,11 @@ Can address 3103:
 
 - byte 0 - lowByte(currentStatus.loopsPerSecond);
 - byte 1 - highByte(currentStatus.loopsPerSecond);
-- byte 2 - lowByte(currentStatus.freeRAM); //(byte)((currentStatus.loopsPerSecond >> 8) & 0xFF);
+- byte 2 - lowByte(currentStatus.freeRAM);
 - byte 3 - highByte(currentStatus.freeRAM);
 - byte 4 - currentStatus.batCorrection; //Battery voltage correction (%)
 - byte 5 - currentStatus.spark; //Spark related bitfield
-- byte 6 - currentStatus.O2_2; //O2
+- byte 6 - currentStatus.O2_2; //Second O2
 - byte 7 - unused;
 
 Can address 3104:
