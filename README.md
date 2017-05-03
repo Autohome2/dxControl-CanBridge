@@ -14,7 +14,12 @@ The module can be constructed using either a arduino MEGA2560 and a mcp2515 CAN 
 The interface module connects to the Speeduino ECU via its Serial3 port to Serial1 on the interface itself.
 The interface is configured via TunerStudio over the onboard USB.
 
-#What it does
+# What it does
+- Version1 interface can only get the realtime data from the Speeduino ECU and broadcast it.
+- Version2 is able to read data packets from remote devices on the can network and forward tht data to Speeduino.
+- Version3 will offer output capability to extend the outputs available to Speeduino.
+
+# Version1
 The interface requests the current data from the Speeduino at 2hz .Later versions will have selectable broadcasts rate of up to 20hz
 This is put into packets of 8 bytes with each bundle of 8 bytes being assigned an 11bit CAN ID address.
 So if for example the base address is set as 3100dec(see configuration below on how to do this)then the data will be broadcast as follows.The base broadcast address is selectable via a Tunerstudio connection.The ini file loaded must match the firmware version.
@@ -70,7 +75,11 @@ Can address 3104:
 - byte 2 - highByte(currentStatus.rpmDOT);
 - byte 3 - currentStatus.flex; //Flex sensor value (or 0 if not used)
 
-#Configuration
+# Configuration
 
 The base CAN address is the beginning address with which the broadcast is made sequentially for each block of 8 bytes.
 This is an 11bit address and must not clash with any other device on the network with the same address
+
+
+# whats next?
+- Can passthrough - This will enable other Speeduino compatible devices to be programmed over the canbus including the actual Speeduino ECU itself. 
