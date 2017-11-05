@@ -37,13 +37,10 @@ void loop() {
   // put your main code here, to run repeatedly:
         // send command to the Speeduino
         sendTheCommand(maincommand,tsCanId,realtime_offset,realtime_bytes);
-        if (mysoftSerial.available() > 0)      // if mysoftSerial has data then do the command subroutine
+        if (mysoftSerial.available() > 2)      // if mysoftSerial has data then do the command subroutine
         {
           command();
-          for (byte senddata = 0; senddata < replylength; senddata++) //read all 8 bytes of data
-                      {
-                       Serial.print(realtimebuffer[senddata]);   // print the data received to the serial monitor
-                      }
+          Serial.print(realtimebuffer[2]);   // print the data received to the serial monitor
         }
       delay (1000);     // wait 1 second
 }

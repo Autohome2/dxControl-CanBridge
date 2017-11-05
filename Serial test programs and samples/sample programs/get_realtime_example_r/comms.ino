@@ -30,14 +30,25 @@ void command()
                       }
           break;  
 
-          case 'r':          
-                  while (mysoftSerial.available() == 0) {}
-                  replylength = (mysoftSerial.read());              //read in reply length
-                  for (byte rdata = 0; rdata < replylength; rdata++) //read x bytes of data according to replylength
-                      {
-                       realtimebuffer[rdata] = (mysoftSerial.read());
-                      }             
+          case 'r':           
+                byte cmd;
+                if ( SERIALLink.available() >= 2)
+                    {
+                      cmd =  SERIALLink.read();                                           
+                      realtimebuffer[0] = SERIALLink.read();
+                      realtimebuffer[1] = SERIALLink.read();             
+                      realtimebuffer[2] = (realtimebuffer[1]<<8) | realtimebuffer[0];                        
+                    }                                        
           break;
+          
+          //case 'r':          
+          //        while (mysoftSerial.available() == 0) {}
+          //        replylength = (mysoftSerial.read());              //read in reply length
+          //        for (byte rdata = 0; rdata < replylength; rdata++) //read x bytes of data according to replylength
+          //            {
+          //             realtimebuffer[rdata] = (mysoftSerial.read());
+          //            }             
+          //break;
     }
 
 return;

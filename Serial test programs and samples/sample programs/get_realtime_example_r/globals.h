@@ -32,12 +32,12 @@
 #define tsCanId  0          // this is the tunerstudio canID , this is 0 for the main ecu in the system which is usually the speeduino ecu . 
                               // this value is set in Tunerstudio when configuring your Speeduino
 uint16_t realtime_offset = 4;  // the offset of the realtime data to start reading from
-uint16_t realtime_bytes = 1;   // the number of bytes requested
+uint16_t realtime_bytes = 2;   // the number of bytes requested
 
 /*
 change the realtime_offset to what offset position you wish to read the realtime data from
 eg : realtime_offset = 4 , this relates to the currentStatus.MAP
-This is 1 byte long so if this is the only byte you want to read set realtime_bytes to 1
+This is 2 byte long so if this is the only byte you want to read set realtime_bytes to 2
 
 eg : realtime_offset = 8 , this relates to the  currentStatus.battery10 (battery voltage)
 this is 1 byte long.
